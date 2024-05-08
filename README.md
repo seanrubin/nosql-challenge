@@ -58,21 +58,25 @@ Display the first document in the results using pprint.
 Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
 
 1. Which establishments have a hygiene score equal to 20?
+2. 
 ![image](https://github.com/seanrubin/nosql-challenge/assets/31460184/adf6762b-b584-49e6-b607-410c353fd5ea)
 
-2. Which establishments in London have a RatingValue greater than or equal to 4?
+3. Which establishments in London have a RatingValue greater than or equal to 4?
 
 Hint: The London Local Authority has a longer name than "London" so you will need to use $regex as part of your search.
+
 ![image](https://github.com/seanrubin/nosql-challenge/assets/31460184/c83be100-5110-4d68-b44b-374b9ffdbded)
 
 3. What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
 
 Hint: You will need to compare the geocode to find the nearest locations. Search within 0.01 degree on either side of the latitude and longitude.
+
 ![image](https://github.com/seanrubin/nosql-challenge/assets/31460184/4a979bdf-0143-4f12-91bd-008e9454cd97)
 
 4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
 
 Hint: You will need to use the aggregation method to answer this.
+
 ![image](https://github.com/seanrubin/nosql-challenge/assets/31460184/a24d13e8-0dd2-4ddf-a4d4-37b920de6353)
 
 
