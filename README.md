@@ -58,10 +58,10 @@ Display the first document in the results using pprint.
 Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
 
 1. Which establishments have a hygiene score equal to 20?
-2. 
+   
 ![image](https://github.com/seanrubin/nosql-challenge/assets/31460184/adf6762b-b584-49e6-b607-410c353fd5ea)
 
-3. Which establishments in London have a RatingValue greater than or equal to 4?
+2. Which establishments in London have a RatingValue greater than or equal to 4?
 
 Hint: The London Local Authority has a longer name than "London" so you will need to use $regex as part of your search.
 
